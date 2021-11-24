@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <form>
+                <label for="İsim">İsim:</label></form>
+                <input type="text" id="İsim" placeholder="...">
+                </br><label for="Soyisim">Soyisim:</label>
+                </br><input type="text"name="Soyisim" id="Soyisim" placeholder="...">
+                </br><label for="Mail">Mail:</label></form>
+                </br><input type="text"id="Mail" placeholder="...">
+                </br><label for="Adres">Adres:</label></form>
+                </br><input type="text"id="Adres" placeholder="...">
+                </br><label for="Şifre">Şifre:</label></form>
+                </br><input type="text"id="Şifre" placeholder="...">
+                </br></br><button onclick="Yazdır()">GÖNDER</button>
+            </form>
+                <script>
+                    function Yazdır(){
+                    var aaa=(document.getElementById('İsim').value);
+                    var bbb=(document.getElementById('Soyisim').value);
+                    var ccc=(document.getElementById('Mail').value);
+                    var ddd=(document.getElementById('Adres').value);
+                    var eee=(document.getElementById('Şifre').value);
+                    console.log("Girinenler;");
+                    console.log(aaa);
+                    console.log(bbb);
+                    console.log(ccc);
+                    console.log(ddd);
+                    console.log(eee);
+                    }
+                </script>
+        </body>
+</html>

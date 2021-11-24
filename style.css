@@ -1,0 +1,19 @@
+label{
+    color:red;
+    font-size: large;
+    margin-left: 620px;
+    
+}
+button{
+    background-color: blue;
+    color: yellow;
+}
+body{
+    background-color: bisque;
+}
+input{
+    margin-left: 620px;
+}
+button{
+    margin-left: 620px;
+}
